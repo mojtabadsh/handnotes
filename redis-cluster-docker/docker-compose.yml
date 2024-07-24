@@ -1,0 +1,83 @@
+version: '3.8'
+servnetwork_names:
+  redis_0:
+    image: redis:5.0.12-alpine
+    container_name: redis_0
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+    volumes:
+      - "./redis-data/redis_0/data:/data"
+      - "./redis-data/redis_0/redis.conf:/usr/local/etc/redis/redis.conf:ro"
+    ports:
+      - "6370:6370"
+      - "16370:16370"
+    networks:
+      - network_name
+
+  redis_1:
+    image: redis:5.0.12-alpine
+    container_name: redis_1
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+    volumes:
+      - "./redis-data/redis_1/data:/data"
+      - "./redis-data/redis_1/redis.conf:/usr/local/etc/redis/redis.conf:ro"
+    ports:
+      - "6371:6371"
+      - "16371:16371"
+    networks:
+      - network_name
+
+  redis_2:
+    image: redis:5.0.12-alpine
+    container_name: redis_2
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+    volumes:
+      - "./redis-data/redis_2/data:/data"
+      - "./redis-data/redis_2/redis.conf:/usr/local/etc/redis/redis.conf:ro"
+    ports:
+      - "6372:6372"
+      - "16372:16372"
+    networks:
+      - network_name
+
+  redis_3:
+    image: redis:5.0.12-alpine
+    container_name: redis_3
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+    volumes:
+      - "./redis-data/redis_3/data:/data"
+      - "./redis-data/redis_3/redis.conf:/usr/local/etc/redis/redis.conf:ro"
+    ports:
+      - "6373:6373"
+      - "16373:16373"
+    networks:
+      - network_name
+
+  redis_4:
+    image: redis:5.0.12-alpine
+    container_name: redis_4
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+    volumes:
+      - "./redis-data/redis_4/data:/data"
+      - "./redis-data/redis_4/redis.conf:/usr/local/etc/redis/redis.conf:ro"
+    ports:
+      - "6374:6374"
+      - "16374:16374"
+    networks:
+      - network_name
+
+  redis_5:
+    image: redis:5.0.12-alpine
+    container_name: redis_5
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+    volumes:
+      - "./redis-data/redis_5/data:/data"
+      - "./redis-data/redis_5/redis.conf:/usr/local/etc/redis/redis.conf:ro"
+    ports:
+      - "6375:6375"
+      - "16375:16375"
+    networks:
+      - network_name
+
+networks:
+  network_name:
+    external: true

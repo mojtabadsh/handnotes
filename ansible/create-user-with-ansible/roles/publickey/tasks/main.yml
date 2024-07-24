@@ -1,0 +1,6 @@
+---
+- name: put user public key on hosts
+  lineinfile:
+    path: "/home/{{ item.name }}/.ssh/authorized_keys"
+    line: "{{ item.key }}"
+  with_items: "{{ pubkey }}"

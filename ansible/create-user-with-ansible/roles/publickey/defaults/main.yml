@@ -1,0 +1,5 @@
+---
+pubkey: 
+ - { name: m.dadashi, key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMpieyte9sxWw1YrgZouF9cVEilw7DUa3pv4XxL5n6UyWWI33LtP1zyZVOlW1t9QAKk9/u/mnc/LcBTQr12/jjgWWlEzwBSK14hP3+VMVsoqCpFq4YiTEiNHUkbCNKNwtBw2I4CTbB5UrXch5EA6z88Ie1+/1oFsmggoPtnklmdJmTssUiVdohxzAB2uCiUsgBNF7LbPxpbUdAI0cey/oSPeu0baXWiMe3+cWr5n3Ul/KULspuu5lfJFohqkQYz9hz9bDSs8oXKFhVbMi3nNrZ+cXewGr0pTyi+qqr+ISXrRmlEqkXig2zzCKbWlJC0GEmovWL5epgsInpbSofxyKZ art\m.dadashi@F1-D2' }
+
+ - { name: h.mahdiany, key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDFxTM2/nwlRoPwAJ28ft51fRKSNro4bsVSir+GwqcjZ1XKB2FmXTcGB5rrSmFBDHHy5s1KcFce/0FBHHhGyylcLZXpd3eqFcla7tL+2//fHNAk/eW8SQBmH/EKj3wQsGv8SWYoQjvbo0eGReDuahz08JHze9JqB1lZeORNLG9/vSRAyOURdNd22aHJGh1ZoLh6VymdEGQ5tD0AFJjDhFltk1KYSW0ofIteA5bPvCVd8ANil9E+NTkvzxRnXZjrh1IkCjcppKC8/OD5P4jxAe+Go2L+LRFoDGqZayH9nONYDT3CNP/d2KKUMymy13kuXE7qfzE0Lg0krI+gQpOw0RXx h.mahdiany@F1-D7.ART.NE'}
